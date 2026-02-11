@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.special-gothic-condensed-one-regular {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-96 {
+    background-color: #2c465f;
+}
+.bg-96-dark {
+    background-color: #1b344c;
+}
+.bg-96-lite {
+    background-color: #f2f8fe;
+}
+
+.color-96 {
+    color: #2c465f;
+}
+
+.border-96-dark {
+    border-bottom: 1px solid #1b344c;
+}
+
+.btn-96 {
+    color: #2c465f;
+    border-color: #2c465f;
+}
+.btn-96:hover {
+    color: #ffffff;
+    border-color: #2c465f;
+    background-color: #2c465f;
+}
+
+@keyframes progress {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
