@@ -1,0 +1,20 @@
+PÁGINA DOS ADMINISTRADORES LOGADOS
+> Estão em js/pages/Administradores
+
+PÁGINA DOS CLIENTE LOGADOS
+> Estão em js/pages/Clientes
+
+PÁGINA DE ACESSO GERAL
+> Estão em js/pages/Site
+
+-----------------------------------------------------------------------------------------
+
+FUNCIONALIDADES
+status pagamento pode ser:
+> processando, pendente, pago, enviado, entregue, rma, cancelado_mp, cancelado_app, estornado
+
+um usuario pode ser, role:
+> administrador/admin, vendedor, cliente (por padrão será cadastrado como cliente)
+
+mercado pago está usando a versão ^3.8:
+> .env deve ser adicionado a chave de teste ou de produção, MERCADO_PAGO_ACCESS_TOKEN: TEST-...
